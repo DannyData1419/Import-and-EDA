@@ -1,2 +1,2 @@
-# regression
-for regression models
+# Data import and EDA
+For getting data, and expolratory data analysis
