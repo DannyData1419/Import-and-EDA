@@ -3,7 +3,7 @@ For getting data, and expolratory data analysis
 
 ---
 
-# Files and Folders Pattern Matching Script
+# Files and Folders Pattern Matching
 
 This Python script provides functionality to traverse a directory, search for specific folders and files based on regex patterns, and analyze the distribution of those files. It is useful for exploring directory structures, collecting file information, and visualizing the distribution of files within folders.
 
