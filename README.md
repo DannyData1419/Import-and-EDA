@@ -64,9 +64,9 @@ pip install pandas matplotlib seaborn numpy
 
    directory = '/path/to/directory'
    folder_name = 'Submissions'
-   folder_pattern = r'Submissions_*'
-   file_name = 'PDF'
-   file_pattern = r'.*\.pdf'
+   folder_pattern = re.compile(r"submission", re.IGNORECASE)
+   file_name='Bid proposals.pdf'
+   file_pattern = re.compile(r"^20\d{2}-.*\.pdf$", re.IGNORECASE)
    limit = 100
 
    evaluator = FilesAndFoldersInDirectory(directory, folder_name, folder_pattern, file_name, file_pattern, limit)
