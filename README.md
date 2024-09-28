@@ -69,16 +69,16 @@ pip install pandas matplotlib seaborn numpy
    file_pattern = r'.*\.pdf'
    limit = 100
 
-   files_folders = FilesAndFoldersInDirectory(directory, folder_name, folder_pattern, file_name, file_pattern, limit)
+   evaluator = FilesAndFoldersInDirectory(directory, folder_name, folder_pattern, file_name, file_pattern, limit)
    
    # Retrieve and display matched files
-   files_folders.retrieve_pattern_matched_files()
+   evaluator.retrieve_pattern_matched_files()
    
    # Show distribution of files in matching folders
-   files_folders.distribution_of_files_in_folders()
+   evaluator.distribution_of_files_in_folders()
 
    # Show a random folder with a specific number of matching files
-   files_folders.show_files_in_random_folder(frequency=5)
+   evaluator.show_files_in_random_folder(frequency=3)
    ```
 
 ## Class Methods
