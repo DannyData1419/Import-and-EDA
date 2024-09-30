@@ -80,7 +80,6 @@ pip install pandas matplotlib seaborn numpy
    
    # Show distribution of files in matching folders
    evaluator.distribution_of_files_in_folders()
-   ![File Distribution Plot](images/DistributionOfFilesInFolders.png)
 
    # Show a random folder with a specific number of matching files
    evaluator.show_files_in_random_folder(frequency=3)
@@ -100,6 +99,7 @@ pip install pandas matplotlib seaborn numpy
   - A pandas DataFrame with folder names and corresponding file counts.
   - A histogram showing the distribution of files.
   - A list of folders grouped by the number of matched files.
+![File Distribution Plot](images/DistributionOfFilesInFolders.png)
 
 ### `show_files_in_random_folder(frequency)`
 - **Description:** This method randomly selects a folder containing a specific number of matched files (given by the `frequency` parameter) and lists the file names inside that folder.
