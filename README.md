@@ -99,6 +99,7 @@ pip install pandas matplotlib seaborn numpy
   - A pandas DataFrame with folder names and corresponding file counts.
   - A histogram showing the distribution of files.
   - A list of folders grouped by the number of matched files.
+    
 ![File Distribution Plot](images/DistributionOfFilesInFolders.png)
 
 ### `show_files_in_random_folder(frequency)`
