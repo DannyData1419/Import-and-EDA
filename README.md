@@ -24,12 +24,18 @@ The main class in this script is `FilesAndFoldersInDirectory`, which contains me
 ## Setup and Installation
 
 ### Prerequisites
-- Python 3.x
-- Required libraries:
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `numpy`
+```python
+  # Python 3.x
+  # required libraries:
+  import os
+  import re
+  import random
+  from collections import defaultdict
+  import pandas as pd
+  import matplotlib.pyplot as plt
+  import numpy as np
+  import seaborn as sns
+```
 
 You can install these dependencies via `pip`:
 
