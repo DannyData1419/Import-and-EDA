@@ -61,9 +61,7 @@ pip install pandas matplotlib seaborn numpy
 3. **Example Usage:**
    
    ```python
-   !git clone https://github.com/your-username/import-and-eda.git
-   %cd import-and-eda  # navigate into the repository directory
-   
+    
    from your_script import FilesAndFoldersInDirectory # import class
 
    directory = '/path/to/directory'
@@ -92,8 +90,9 @@ pip install pandas matplotlib seaborn numpy
 - **Output:** 
   - A list of matched files.
   - A sample of randomly selected files.
+
     
- ```
+ ```python
   A total of 5888 retrieved Bid proposals.pdf files from Submissions on 2024-09-28
   
   Randomly selected samples:
@@ -101,7 +100,7 @@ pip install pandas matplotlib seaborn numpy
   2022-random file.pdf
   2021-random file.pdf
   2021-random file.pdf
-  2021-random filepdf
+  2021-random file.pdf
   2021-random file.pdf
   2022-random file.pdf
   2022-random file.pdf
@@ -124,8 +123,9 @@ pip install pandas matplotlib seaborn numpy
   - `frequency` (int): The number of matched files to look for in the folder.
 - **Output:** 
   - The path to a randomly selected folder and its file contents.
+
  
-  ```
+  ```python
   Randomly selected folder with 1 Bid proposals.pdf: 
 
   C:\users\name\company\team documents\bids\2022\service line\region\client\project folder\submissions
