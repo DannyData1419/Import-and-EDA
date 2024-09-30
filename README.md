@@ -92,7 +92,7 @@ pip install pandas matplotlib seaborn numpy
   - A sample of randomly selected files.
 
     
- ```python
+ ```
   A total of 5888 retrieved Bid proposals.pdf files from Submissions on 2024-09-28
   
   Randomly selected samples:
@@ -125,7 +125,7 @@ pip install pandas matplotlib seaborn numpy
   - The path to a randomly selected folder and its file contents.
 
  
-  ```python
+  ```
   Randomly selected folder with 1 Bid proposals.pdf: 
 
   C:\users\name\company\team documents\bids\2022\service line\region\client\project folder\submissions
