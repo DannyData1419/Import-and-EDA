@@ -164,10 +164,11 @@ This code helps in assessing the completeness of a dataset by producing a summar
 ## Overview
 
  ```python
-# import function
+# import pandas and function
+import pandas as pd
 from your_script import null_pct_table
 
-# se it with dataframe
+# use it with a dataframe
 df = pd.read_csv('your_dataset.csv')
 null_table = null_pct_table(df)
 print(null_table)
