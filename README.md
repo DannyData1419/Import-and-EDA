@@ -159,7 +159,21 @@ Here’s how you can use this script in a typical workflow:
 
 ---
 
-## Data Quality Check: Null Percentage Table Function
+# Data Quality Check: Null Percentage Table Function
+This code helps in assessing the completeness of a dataset by producing a summary table showing each column's percentage of missing values, making it easier to identify which columns might need data cleaning or imputation
+## Overview
+
+ ```python
+# import function
+from your_script import null_pct_table
+
+# se it with dataframe
+df = pd.read_csv('your_dataset.csv')
+null_table = null_pct_table(df)
+print(null_table)
+ ```
+
+---
 
 ## License
 This repository is licensed under the MIT License. See the `LICENSE` file for more information.
