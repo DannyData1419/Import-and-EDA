@@ -1,8 +1,8 @@
 # Data import and EDA
 For getting data, and expolratory data analysis
 
-#### [Files and Folders Pattern Matching](#Files-and-Folders-Pattern-Matching)
-#### [Null Percentage Table Function](#Null-Percentage-Table-Function)
+- [Files and Folders Pattern Matching](#Files-and-Folders-Pattern-Matching)
+- [Null Percentage Table Function](#data-quality-check-null-percentage-table-function)
 
 ---
 
@@ -159,7 +159,7 @@ Here’s how you can use this script in a typical workflow:
 
 ---
 
-# Null Percentage Table Function
+## Data Quality Check: Null Percentage Table Function
 
 ## License
 This repository is licensed under the MIT License. See the `LICENSE` file for more information.
