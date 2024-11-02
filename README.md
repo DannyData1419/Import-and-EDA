@@ -4,6 +4,9 @@ For getting data, and expolratory data analysis
 ### [Files and Folders Pattern Matching](#Files-and-Folders-Pattern-Matching)
 This Python script provides functionality to traverse a directory, search for specific folders and files based on regex patterns, and analyze the distribution of those files. It is useful for exploring directory structures, collecting file information, and visualizing the distribution of files within folders.
 
+### [Data Quality Check: Null Percentage Table Function](#Null-%-in_DataFrame).
+This Python script checks data quality calculating the percentage of missing (null) values in each column of a DataFrame and returns the result in a formatted table.
+
 ---
 
 # Files and Folders Pattern Matching
@@ -158,6 +161,8 @@ Here’s how you can use this script in a typical workflow:
    Use `show_files_in_random_folder(frequency)` to inspect a random folder containing a specified number of files.
 
 ---
+
+# Missing Value % in DataFrame
 
 ## License
 This repository is licensed under the MIT License. See the `LICENSE` file for more information.
