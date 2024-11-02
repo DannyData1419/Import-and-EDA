@@ -1,11 +1,8 @@
 # Data import and EDA
 For getting data, and expolratory data analysis
 
-### [Files and Folders Pattern Matching](#Files-and-Folders-Pattern-Matching)
-This Python script provides functionality to traverse a directory, search for specific folders and files based on regex patterns, and analyze the distribution of those files. It is useful for exploring directory structures, collecting file information, and visualizing the distribution of files within folders.
-
-### [Null Percentage Table Function](#Null-Percentage-Table-Function)
-This Python script checks data quality calculating the percentage of missing (null) values in each column of a DataFrame and returns the result in a formatted table.
+#### [Files and Folders Pattern Matching](#Files-and-Folders-Pattern-Matching)
+#### [Null Percentage Table Function](#Null-Percentage-Table-Function)
 
 ---
 
